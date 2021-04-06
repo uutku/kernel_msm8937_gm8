@@ -572,6 +572,7 @@
 			#address-cells = <1>;
 			#size-cells = <0>;
 
+
 			qcom,speed-bin = <0>;
 			qcom,initial-pwrlevel = <3>;
 			
@@ -584,7 +585,7 @@
 				qcom,bus-max = <10>;
 			};
 
-			
+
 			/* OVERCLOCK */
 			qcom,gpu-pwrlevel@1 {
 				reg = <1>;
@@ -594,7 +595,7 @@
 				qcom,bus-max = <10>;
 			};
 
-			
+
 			/* OVERCLOCK */
 			qcom,gpu-pwrlevel@2 {
 				reg = <2>;
