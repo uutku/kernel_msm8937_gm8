@@ -386,7 +386,7 @@
 		qcom,cpr-fuse-row = <67 0>;
 		qcom,cpr-fuse-target-quot = <42 24 6>;
 		qcom,cpr-fuse-ro-sel = <60 57 54>;
-		qcom,cpr-init-voltage-ref = <1155000 1225000 1350000>;
+		qcom,cpr-init-voltage-ref = <1150000 1220000 1345000>; 
 		qcom,cpr-fuse-init-voltage =
 					<67 36 6 0>,
 					<67 18 6 0>,
@@ -399,13 +399,13 @@
 		qcom,cpr-init-voltage-step = <10000>;
 		qcom,cpr-corner-map = <1 1 1 2 3 3 3 3 3 3>;
 		qcom,cpr-corner-frequency-map =
-				<1 768000000>,
-				<2 960000000>,
-				<3 1094400000>,
-				<4 1248000000>,
-				<5 1344000000>,
-				<6 1497600000>,
-				<7 1601000000>,
+				<1 518400000>,
+				<2 768000000>,
+				<3 960000000>,
+				<4 1094400000>,
+				<5 1248000000>,
+				<6 1344000000>,
+				<7 1497600000>,
 				<8 1708800000>,
 				<9 1843000000>;
 		qcom,speed-bin-fuse-sel = <37 34 3 0>;
